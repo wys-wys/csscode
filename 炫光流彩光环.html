@@ -41,6 +41,7 @@
             animation: rotate 1s linear infinite ;
             border: 1px solid red ;
         }
+        /*伪元素做动态效果 */
         .circle::before{
             content: "";
             position: absolute;
@@ -71,6 +72,7 @@
             position: absolute;
             color: rgb(0, 225, 255);
         }
+        /* 动画旋转效果 */
         @keyframes rotate {
             0%{
                 transform: rotate(0deg);
